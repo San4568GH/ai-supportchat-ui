@@ -5,12 +5,15 @@ import ChatWindow from '../chat/ChatWindow';
 import AIWindow from '../ai/aiWindow';
 import { useChat } from '@/app/context/ChatContext';
 import { FaComments, FaUserFriends, FaRobot } from 'react-icons/fa';
+import LogoutButton from '../auth/logout';
 
 export default function FullChatLayout() {
   const { mobileView, setMobileView } = useChat();
 
   return (
-    <div className="flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-gray-100">
+     <div className="relative h-screen flex flex-col">
+      <LogoutButton />
+      {<div className="flex flex-col md:flex-row h-screen w-screen overflow-hidden bg-gray-100">
       {/*Desktop View */}
       <div className="hidden md:flex w-full h-full">
         {/* Left Sidebar: Inbox */}
@@ -53,6 +56,8 @@ export default function FullChatLayout() {
           </button>
         </div>
       </div>
+    </div>}
     </div>
+    
   );
 }
