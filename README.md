@@ -2,6 +2,7 @@
 
 - This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 - Utilised TypeScript for Code, Framer-Motion for few animations, TailWindCSS for Stylings
+- Responsive and Dynamic UI ,that can adjust to both mobile and desktop views
 
 ## Getting Started
 1. Clone the Repository
