@@ -1,8 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Customer Support Chat with AI Assistant
+
+- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+- Utilised TypeScript for Code, Framer-Motion for few animations, TailWindCSS for Stylings
 
 ## Getting Started
+1. Clone the Repository
 
-First, run the development server:
+    ```git clone https://github.com/San4568GH/ai-supportchat-ui.git```
+
+2. Install dependencies
+
+    ```npm install```
+
+3. Run the development server:
 
 ```bash
 npm run dev
