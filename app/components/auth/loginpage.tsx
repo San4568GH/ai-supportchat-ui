@@ -25,7 +25,10 @@ export default function LoginPage() {
       <h1 className="text-4xl font-extrabold text-purple-600 mb-6 tracking-wide drop-shadow-sm">
         Welcome, to ChatBot
       </h1>
-      <div className='text-purple-800 font-light'>For Demo: 'Admin' , 'Password123'</div>
+      <div className="text-purple-800 font-light">
+        For Demo: &apos;Admin&apos; , &apos;Password123&apos;
+         {/* %apos is MANDATORY to remove Apostrophe Erros in Build version */}
+      </div>
 
       {/* Login Box */}
       <form
